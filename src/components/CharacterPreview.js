@@ -6,7 +6,7 @@ export default class CharacterPreview extends React.Component {
     return (
       <Link to={`/character/${this.props.id}`}>
         <div className="character-preview">
-          <h2 className="character-name">{this.props.character_name}</h2>
+          <h2 className="character-name">{this.props.character_first_name}</h2>
           <img src={`img/${this.props.image}`}/>
           <h3 className="actress-name">{this.props.actress_name}</h3>
         </div>

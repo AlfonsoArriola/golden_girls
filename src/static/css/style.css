@@ -1,17 +1,24 @@
 html {
-  color: lime;
+  color: #ff4956;
   font: caption;
   padding-bottom: 2em;
-  background: grey;
+  background: #bdf8fc;
+  overflow-x: hidden;
 }
 
+ body{
+  margin: 0 auto;
+ }
+
 a {
-  color: coral;
+  color: #ff4956;
   text-decoration: underline;
 }
 
 header {
   padding: 2em;
+  width: 100vw;
+  background-image: linear-gradient( rgba(255, 159, 159, 0.5), rgba(255, 226, 159, 0.7));
 }
 
 header .logo {
@@ -21,22 +28,96 @@ header .logo {
   width: 100%;
 }
 
-.character-selector{
+.characters-selector{
   text-align: center;
+  width: 100vw;
+  background-image: url(/img/pine-trees.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .character-preview{
   display: inline-block;
-  margin: 1rem;
+  margin: 1rem 2rem;
+  background-color: blanchedalmond;
+
+}
+
+.character-preview h2{
+   color: #e1b93b;
+   text-shadow: 1px 1px black;
 }
 
 .character-preview img{
-  height: 10rem;
+  height: 13rem;
+
 }
 
 .characters-menu{
   display: block;
-  text-align: justify;
+  text-align: center;
+  height: 5rem;
+  padding-top: 2rem;
+}
+
+.characters-menu a{
+  margin: 2rem;
+  font-size: 1.5em;
+}
+
+.character {
+  width: 60%;
+  margin: 0% 20%;
+}
+
+.character header{
+  width: initial;
+  height: 12rem;
+}
+
+.picture-container {
+  margin: -9rem 0 0 37rem;
+  padding: 0 1em 0 1em;
+}
+
+.picture-container img{
+   height: 17rem;
+}
+
+.name{
+  margin: -7rem 0 0 -25rem;
+  font-size: 5em;
+  color: #e1b93b;
+  text-shadow: 1px 1px black;
+}
+
+.actor_bio ul{
+  list-style: none;
+}
+
+.character_bio{
+  text-indent: 50px;
+}
+
+
+
+.navigateBack{
+  text-align: center;
+  font-size: 2em;
+}
+
+
+
+
+.not-found{
+  text-align: center;
+ /* width: 100vw;
+  height: 40rem;
+  background-image: url(/img/shady-pines.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;*/
 }
 
 
@@ -47,7 +128,7 @@ footer {
   text-align: center;
   max-width: 800px;
   width: 100%;
-}
+
 
 footer p {
   line-height: 1.2em;

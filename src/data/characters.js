@@ -8,6 +8,7 @@ const characters =[
 		'died': 'n/a',
 		'birth_name': 'Betty Marion White',
 		'height': '5\', 4\" (1.63 m)',
+		'character_first_name' : 'Rose',
 		'character_name': 'Rose Nylund',
 		'image': 'rose.jpg',
         'cover': 'rose-cover.jpg',
@@ -21,6 +22,7 @@ const characters =[
 		'died': 'June 3, 2010 in New York, New York, USA  (brain hemorrhage)',
 		'birth_name': 'Eddi-Rue McClanahan',
 		'height': '	5\', 3\" (1.6 m)',
+		'character_first_name' : 'Blanche',
 		'character_name': 'Blanche Elizabeth Devereaux',
 		'image': 'blanche.jpg',
         'cover': 'blanche-cover.jpg',
@@ -34,6 +36,7 @@ const characters =[
 		'died': 'April 25, 2009 in Brentwood, Los Angeles, California, USA  (lung cancer)',
 		'birth_name': 'Bernice Frankel',
 		'height': '	5\', 9.5\" (1.77 m)',
+		'character_first_name' : 'Dorothy',
 		'character_name': 'Dorothy Zbornak',
 		'image': 'dorthy.jpg',
         'cover': 'dorthy-cover.jpg',
@@ -47,9 +50,10 @@ const characters =[
 		'died': 'July 22, 2008 in Hollywood, Los Angeles, California, USA  (Lewy body dementia)',
 		'birth_name': 'Estelle Scher',
 		'height': '	4\', 10.5\" (1.49 m)',
+		'character_first_name' : 'Sophia',
 		'character_name': 'Sophia Petrillo',
 		'image': 'sophia.jpg',
-        'cover': 'sophia-cover.jpg',
+        'cover': 'sophia-cover2.jpg',
 		'character_bio': 'Dorothy\'s mother. Born in Sicily, Sophia moved to New York after fleeing an arranged marriage to Guido Spirelli. She married Salvadore "Sal" Petrillo, with whom she had three children: Dorothy, Gloria, and Phil, a cross-dresser who later dies of a heart attack (episode "Ebbtide\'s Revenge"). Initially a resident of the Shady Pines retirement home after having a stroke prior to the start of the series, she moved in with Blanche, Rose, and Dorothy following a fire at the institution. During the series\' run, Sophia married Max Weinstock, but they soon separated. Throughout the series, she held a few part-time jobs, mostly involving food, including as a fast-food worker and an entrepreneur of spaghetti sauce and homemade sandwiches.'
 	 }
 ];

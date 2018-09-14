@@ -19,20 +19,20 @@ export default class CharacterPage extends React.Component {
           <header style={headerStyle}/>
           <div className="picture-container">
             <img src={`/img/${character.image}`}/>
-            <h2 className="name">{character.name}</h2>
+            <h2 className="name">{character.character_first_name}</h2>
           </div>
            <section className="actor_bio">
             <ul>
-             <li>{character.actress_name}</li>
-             <li>{character.birth_name}</li>
-             <li>{character.height}</li>
-             <li>{character.born}</li>
-             <li>{character.died}</li>
+             <li>Actress Name: {character.actress_name}</li>
+             <li>Birth Name: {character.birth_name}</li>
+             <li>Height: {character.height}</li>
+             <li>Born: {character.born}</li>
+             <li>Died: {character.died}</li>
             </ul>
            
           </section>
           <section className="character_bio">
-            {character.bio} 
+            <p>{character.character_bio} </p>
           </section>
          
         </div>

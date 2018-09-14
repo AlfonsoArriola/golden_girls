@@ -6,7 +6,8 @@ export default class NotFoundPage extends React.Component {
     return (
       <div className="not-found">
         <h1>404</h1>
-        <h2>YO!!!  Page not found!!!!</h2>
+        <h2>"Shady Pines, Ma..."</h2>
+        <h3> Page Not Found. </h3>
         <p>
           <Link to="/">Go back to the main page</Link>
         </p>
