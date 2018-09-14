@@ -7,7 +7,7 @@ export default class GoldenGirlsMenu extends React.Component {
       <nav className="characters-menu">
         {this.props.characters.map(menuCharacter => {
           return <Link key={menuCharacter.id} to={`/character/${menuCharacter.id}`} activeClassName="active">
-            {menuCharacter.name}
+            {menuCharacter.character_name}
           </Link>;
         })}
       </nav>

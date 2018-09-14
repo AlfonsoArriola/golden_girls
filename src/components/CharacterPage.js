@@ -14,7 +14,7 @@ export default class CharacterPage extends React.Component {
     const headerStyle = { backgroundImage: `url(/img/${character.cover})` };
     return (
       <div className="character-full">
-        <CharactersMenu characters={characters}/>
+        <GoldenGirlsMenu characters={characters}/>
         <div className="character">
           <header style={headerStyle}/>
           <div className="picture-container">
