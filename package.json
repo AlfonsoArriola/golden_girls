@@ -1,6 +1,9 @@
 {
   "name": "golden_girls",
   "version": "1.0.0",
+   "engines": {
+    "node": "8.9.4"
+  },
   "description": "A profile of the Actress and their respective characters on the hit show \"The Golden Girls\"",
   "main": "index.js",
   "scripts": {
