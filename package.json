@@ -1,14 +1,19 @@
 {
   "name": "golden_girls",
   "version": "1.0.0",
-   "engines": {
+  "engines": {
     "node": "8.11.1",
-     "npm": "5.6.0"
+    "npm": "5.6.0"
   },
   "description": "A profile of the Actress and their respective characters on the hit show \"The Golden Girls\"",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "react-scripts start",
+    "start": "serve -s build",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "heroku-postbuild": "npm run build"
   },
   "keywords": [
     "golden_girls"
@@ -32,14 +37,5 @@
     "babel-preset-env": "^1.7.0",
     "http-server": "^0.9.0",
     "webpack": "^1.13.3"
-  },
-
-  "scripts": {
-    "dev": "react-scripts start",
-    "start": "serve -s build",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "heroku-postbuild": "npm run build"
   }
 }
