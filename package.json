@@ -5,7 +5,6 @@
     "node": "10.10.0",
     "npm": "5.6.0"
   },
-
   "description": "A profile of the Actress and their respective characters on the hit show \"The Golden Girls\"",
   "main": "index.js",
   "scripts": {
@@ -27,7 +26,7 @@
     "babel-preset-es2015": "^6.13.2",
     "babel-preset-react": "^6.11.1",
     "ejs": "^2.5.9",
-    "express": "^4.14.1",
+    "express": "^4.16.3",
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
     "react-router": "^2.6.1",
@@ -36,7 +35,7 @@
   "devDependencies": {
     "babel-loader": "^6.2.10",
     "babel-preset-env": "^1.7.0",
-    "http-server": "^0.9.0",
+    "http-server": "^0.11.1",
     "webpack": "^1.13.3"
   }
 }
